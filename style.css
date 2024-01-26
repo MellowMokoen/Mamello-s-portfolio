@@ -12,6 +12,7 @@ body {
 :root {
   --primary-color: white;
   --font-family: Acme;
+  --secondary-color: rgb(116, 26, 4);
 }
 
 .header {
@@ -54,7 +55,7 @@ h3 {
 
 .header a {
   text-decoration: none;
-  color: rgb(116, 26, 4);
+  color: var(--secondary-color);
 }
 
 .header li:hover {
@@ -68,22 +69,44 @@ h3 {
 }
 
 .about {
-  background-image: url(images/Mellow.jpg);
+  background-image: url(images/Mellow\ Yellow.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+  padding: 30px;
 }
 
 .about-heading {
-  text-align: center;
-  font-family: var(--font-family);
+  text-align: left;
   font-size: 50px;
-  color: var(--primary-color);
 }
 
 .about-paragraph {
-  font-family: var(--font-family);
-  color: var(--primary-color);
   font-size: 20px;
   line-height: 2;
-  text-align: center;
+  text-align: left;
+}
+
+.skill-section {
+  font-family: var(--font-family);
+  color: var(--secondary-color);
+}
+
+.skill-list {
+  display: flex;
+  justify-content: start;
+}
+
+.skill-web {
+  padding-right: 70px;
+}
+
+.skill-tech {
+  padding-left: 50px;
+}
+
+.skill-heading {
+  font-size: 30px;
+  margin-top: 30px;
 }
