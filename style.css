@@ -51,3 +51,13 @@ h3 {
   text-decoration: none;
   color: rgb(116, 26, 4);
 }
+
+.header li:hover {
+  background-color: rgb(160, 48, 20);
+  font-size: 35px;
+}
+
+.header a:hover {
+  color: blanchedalmond;
+  transition: 0.3s;
+}
