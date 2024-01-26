@@ -73,7 +73,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--font-family);
-  color: var(--secondary-color);
+  color: rgb(204, 2, 69);
   padding: 30px;
 }
 
@@ -90,7 +90,7 @@ h3 {
 
 .skill-section {
   font-family: var(--font-family);
-  color: var(--secondary-color);
+  color: rgb(204, 2, 69);
 }
 
 .skill-list {
@@ -145,4 +145,29 @@ h3 {
 .download-resume:hover {
   color: blanchedalmond;
   font-size: 25px;
+}
+
+.contact-heading {
+  font-size: 50px;
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  text-align: center;
+  padding: 30px;
+}
+
+.contact-me {
+  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+  padding: 15px;
+}
+
+.contact-me i {
+  padding: 15px;
+}
+
+.contact-me i:hover {
+  font-size: 30px;
+  cursor: pointer;
 }
