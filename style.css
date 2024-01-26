@@ -125,3 +125,24 @@ h3 {
 .row {
   padding-bottom: 50px;
 }
+
+.download-resume {
+  font-family: var(--font-family);
+  margin: 50px auto;
+  text-align: center;
+}
+
+.download-resume a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 20px 35px;
+  border-radius: 15px 40px;
+  box-shadow: 4px 4px rgb(36, 26, 26);
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.download-resume:hover {
+  color: blanchedalmond;
+  font-size: 25px;
+}
