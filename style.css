@@ -19,10 +19,12 @@ body {
 
 h1 {
   font-size: 50px;
+  font-family: Rubik Doodle Shadow;
 }
 
 h3 {
   font-size: 30px;
+  font-family: Acme;
 }
 
 .home,
@@ -42,6 +44,7 @@ h3 {
   margin: 40px;
   font-size: 25px;
   font-weight: bold;
+  font-family: Acme;
 }
 
 .header a {
